@@ -2,7 +2,7 @@
 import java.awt.geom.Ellipse2D;
 class Ball extends Ellipse2D.Float{
 	public int x_speed, y_speed;
-	private int d;
+	private final int d;
 
 	public Ball(int diameter)
 	{	

@@ -5,8 +5,8 @@ public class canvas extends JFrame{
 		static int width = 600;
 	 	static int height = 600;
 	
-	private ThreadAnimation ta;
-	private PaintSurface ps; 
+	private final ThreadAnimation ta;
+	private final PaintSurface ps; 
 
 	public canvas(){
 		setTitle("PINGPONG GAME");
@@ -25,7 +25,7 @@ public class canvas extends JFrame{
 	}
 
 	public static void main(String args[]){
-		new canvas();
+                    new canvas();
 	}
 
 }
